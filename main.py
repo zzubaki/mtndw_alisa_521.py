@@ -46,7 +46,7 @@ if uploaded_file:
         x=groupby_column,
         y='Sales',
         color="Profit",
-        color_continuous_scale=['red', 'yellow', 'green'],
+        color_continuous_scale=['black', 'purple', 'pink'],
         template ='plotly_white',
         title=f'<b>Sales & Profit by{groupby_column}</b>'
     )
